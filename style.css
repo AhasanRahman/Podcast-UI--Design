@@ -5,8 +5,13 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+   font-family: 'Lato', sans-serif;
     width: 100%;
+}
+.main-container{
+   width: 100%;
+   overflow: hidden;
+   
 }
 
 header {
@@ -49,6 +54,11 @@ ul li a {
     text-decoration: none;
 }
 
+a:hover{
+   border-bottom: 2px solid black;
+  
+}
+ 
 .link {
     display: flex;
     gap: 40px;
@@ -98,8 +108,7 @@ header .img1 {
 .playerbox img{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    
-    
+     
 }
 
 
@@ -107,11 +116,12 @@ header .img1 {
     display: flex;
     justify-content: space-between;
     width: 920px;
-    height: 220px;
-    /* border: 1px solid; */
+    height: 120px;
+     
     margin-top: 20px;
     margin-left: 20px;
 }
+ 
 
 .episode div h2 {
     width: 404px;
@@ -120,13 +130,62 @@ header .img1 {
     color: #000000;
 }
 
+ 
+.audioplayer{
+   font-size: 14px;
+   color: #8E8B8C;
+   height: 40px;
+   margin-left: 20px;
+}
+
+.track{
+   width: px;
+   margin-left: 20px;
+   display: flex;
+justify-content: space-between;
+align-items: center;
+ 
+
+}
+.track span{
+   width: 70px;
+   height: 70px;
+   border: 1px solid #CECECE;
+   border-radius: 70px;
+}
+.track label{
+   height: 2px;
+   width: 575px;
+   background-color: #000;
+   position: relative;
+}
+.track label span{
+   width: 12px;
+   height: 12px;
+   border-radius: 12px;
+   background-color: #000;
+   position: absolute;
+   top: -5px;
+}
+.track p{
+   font-size: 14px;
+   color: #8E8B8C;
+}
+.track h5{
+   font-size: 14px;
+   color: #8E8B8C;
+}
+
+
 .section1 {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    align-items: center;
     width: 1300px;
     height: 542px;
-    margin-top: 250px;
-    margin-left: 280px;
+    gap: 300px;
+
+    margin: 230px  auto;
 }
 
 .section1 .divm {
@@ -160,8 +219,6 @@ header .img1 {
     align-items: center;
     margin: 15px 0;
     
-
-
 }
 
 .circle {
@@ -190,7 +247,6 @@ header .img1 {
     height: 630px;
     width: 100%;
     background-color: #F8F8F8;
-   
    
 }
  .div-elementor{
@@ -260,6 +316,30 @@ gap: 30px;
  .carddiv div p{
     margin-left: -130px;
  }
+ .carddiv div label{
+   width: 220px;
+   height: 2px;
+   background-color: #000;
+    
+ }
+ .carddiv .imgdiv{
+   position: relative;
+ }
+  .earicon {
+   position: absolute;
+   height: 45px;
+   width: 45px;
+   border-radius: 10px;
+   background-color:#fff;
+   top: 4%;
+   right: 4%;
+
+ }
+ .earicon i{
+   font-size: 18px;
+   margin-top: 10px;
+   margin-left: 13px;
+ }
 
  .div-elementor-row{
     
@@ -288,9 +368,8 @@ gap: 30px;
     
  }
  .div-grid1 div{
-    height: 560px;
+    height: 580px;
     width: 386px;
-    border: 1px ;
     border-radius: 10px;
     box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.08) ;
     
@@ -301,7 +380,11 @@ gap: 30px;
     height: 386px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    
+     
  }
+ 
+
  .div-grid1 span{
     font-size: 14px;
     font-weight: 400;
@@ -318,6 +401,13 @@ gap: 30px;
     line-height: 30px;
     margin-left: 25px;
  }
+ .div-grid1 .borderline{
+   width: 240px;
+   height: 2px;
+   background-color:#000;
+    
+ }
+
  .div-grid1 p{
     font-size: 14px;
     font-weight: 400;
